@@ -12,6 +12,7 @@
 
 We borrowed the [cube coordinates](https://www.redblobgames.com/grids/hexagons/) _(x,y,z)_ with _x+y+z=0_ to label the hexagons seen from the top. Locally each hexagon is not on the same plane but instead with 3 vertices on even integer height and 3 others on odd integer height in units of half of the unit cell height. Lattice grid points with odd integer height were the **1f** sites where the occupancy should be 50%. Therefore with (_x_, _y_, h) and the occupancy constaints, all the Yb3+ sites are well defined in space and are ready for MC simulation.
 
- <img width="716" alt="image" src="https://user-images.githubusercontent.com/109502810/187438894-c66c7ea8-787d-4510-8602-e499cb5e9432.png">
+ <img width="700" alt="image" src="https://user-images.githubusercontent.com/109502810/187447845-51247804-0d3f-4216-8b4f-e9253c26a07a.png">
+
  
    The 
