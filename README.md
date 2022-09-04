@@ -14,5 +14,7 @@ We borrowed the [cube coordinates](https://www.redblobgames.com/grids/hexagons/)
 
  <img width="700" alt="image" src="https://user-images.githubusercontent.com/109502810/187447845-51247804-0d3f-4216-8b4f-e9253c26a07a.png">
 
- 
-   The 
+   This piece of code simulates the energy migration trajectories for a quantum of photon energy absorbed by each individual sensitizer Yb<sup>3+</sup> ions followed by its hopping over the Yb<sup>3+</sup> sublattice according to the exchange mechanism until it is terminated at the boundary of core-shell interface. Core/shell diameters may be changed to different values and number of grid points need to be adjusted accordingly to cover the core-shell structure. Core:Shell volume ratio can be tuned this way and verifed by checking the number of RE<sup>3+</sup> sites. To simulate inward energy migration from shell to core please set "inward=1" or otherwise set "inward=0" for outward migration. Simulation results were recorded as HDF5 files in the same directory.
+   
+### **Copyright (C) 2021~2022, Yunxiang Zhang**
+This software is provided as is without any warranty whatsoever. Permission to use, copy, modify, and distribute modified or unmodified copies is granted, provided this copyright and disclaimer are included unchanged. 
