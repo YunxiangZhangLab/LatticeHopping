@@ -107,15 +107,6 @@ n_core=numel(find(css==0));
 n_shell=numel(find(css==1));
 n_inert=numel(find(css==2));
 
-%shell Yb; --> core (Lu Er);
-%Shell Yb; 75%grid Yb 25% Na
-%shell Na->-1; half of odd grids goes to Na
-
-%random assignment of Na/Yb
-%coreNaYb=core(find(mod(id(core),2)==1));
-%N_NaYb=numel(coreNaYb);
-%css(coreNaYb(find(rand(N_NaYb,1)<=0.5)))=-1;
-
 %fixed assignment
 % css(core(find(mod(id(core),4)==1)))=-1;%option 1 for core
 % css(shell(find(mod(id(shell),4)==1)))=-1;%option 1 for shell
@@ -156,7 +147,6 @@ nb(5,:,:,:)=xx*10000+(yy+(-1).^(hh+1))*100+hh+1;
 nb(6,:,:,:)=xx*10000+(yy+(-1).^(hh-1))*100+hh-1;
 nb(7,:,:,:)=(xx+(-1).^(hh+1))*10000+yy*100+hh+1;
 nb(8,:,:,:)=(xx+(-1).^(hh-1))*10000+yy*100+hh-1;
-
 
 %% grid points, RE3+ sites counting
 % initialize core-shell attibutes of neighbor matrix for compartment
